@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #0a0a0ae7;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #f13e5f;
+    --cor-quarta: #000000;
+    --cor-footer: #0628eb;
+    --cor-botao: #333;
+    --cor-link: #d608ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.cabecalho {
+    padding: 2%;
+    font-size: 12px;
+    justify-content: center;
+    font: var(--cor-terciaria)
+}
+
+body {
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+    background: var(--cor-primaria);
+    background-size: cover;
+    color: var(--cor-secundaria);
+    font-size: 24px;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--cor-terciaria);
+    font-size: 36px;
+    gap: 5px;
+}
+
+.container {
+    display: center;
+    justify-content: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    gap: 3px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    color: var(--cor-secundaria);
+    width: 60%;
+    margin: 5%;
+    font-size: 12px;
+}
+
+.apresentacao__conteudo__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-secundaria);
+    height: 15%;
+    width: auto;
+    font-size: 24px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 5px;
+    gap: 1px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px var(--cor-quarta);
+}
+
+footer {
+    background-color:var(--cor-footer);
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 2px solid var(--cor-terciaria);
+    box-shadow: 0 -2px 5px var(--cor-quarta);
+    gap: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.observacao__botao {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor-quarta);
+}
+
+#output-text {
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

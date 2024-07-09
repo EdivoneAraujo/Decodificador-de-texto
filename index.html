@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Textos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre</a>
+        </nav>
+    </header>
+    <h1>Criptografia de Textos</h1>
+    <h2>Mensagem secreta</h2>
+    <div class="container">
+        <div class="column">
+            <textarea id="input-text" placeholder="Digite seu texto aqui..." rows="10"></textarea>
+        </div>
+        <div class="column">
+            <textarea id="output-text" readonly placeholder="Resultado..." rows="10"></textarea>
+        </div>
+        <div class="button-container">
+            <h2 class=" observacao__botao">Obs: Inserir apenas letras minúsculas e sem acentos</h2>
+            <button id="encrypt-btn">Criptografar</button>
+            <button id="decrypt-btn">Descriptografar</button>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <a>Desenvolvido por <a href="https://github.com/edivonearaujo">EdivoneAraujo</a>
+</footer>
+</html>
+
+
