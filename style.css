@@ -26,7 +26,7 @@
 
 .cabecalho {
     padding: 2% 10%;
-    font-size: 1.5rem; /* 16px */
+    font-size: 1.5rem; 
     justify-content: center;
     gap: 10px;
     color: var(--cor-link);
@@ -39,20 +39,20 @@ body {
     background: var(--cor-primaria);
     background-size: cover;
     color: var(--cor-secundaria);
-    font-size: 1.5rem;
-    min-height: 100vh;
+    font-size: 1.5rem; 
+    min-height: 100%;
 }
 
 h1, h2 {
     text-align: center;
     color: var(--cor-link);
-    font-size: 2rem;
+    font-size: 2rem; 
     margin: 1% 0; 
 }
 
 .container, .apresentacao {
     display: flex;
-    width: 96%;
+    width: 100%;
     margin: 2% auto;
     padding: 2%;
 }
@@ -60,7 +60,8 @@ h1, h2 {
 .container {
     justify-content: center;
     align-items: center;
-    gap: 10px 3px;
+    gap: 10px 8px;
+    margin: 0;
 }
 
 .apresentacao {
@@ -68,7 +69,7 @@ h1, h2 {
     align-items: center;
     justify-content: space-between;
     color: var(--cor-secundaria);
-    font-size: 1rem;
+    font-size: 1rem; 
 }
 
 .apresentacao__conteudo__texto {
@@ -90,7 +91,7 @@ textarea {
     width: 100%;
     height: 200px;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1rem; 
     border: 2px solid var(--cor-terciaria);
     border-radius: 5px;
     box-shadow: inset 0 0 5px var(--cor-quarta);
@@ -101,16 +102,16 @@ textarea {
     display: flex;
     justify-content: center;
     width: 45%;
-    margin: 2% 1%;
+    margin: 1%;
     font-size: 1.5rem;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 10px;
     align-items: center;
+    width: 95%;
+    margin-top: 5px;
     flex-wrap: wrap;
     margin: 3%;
 }
@@ -118,7 +119,7 @@ textarea {
 .observacao__botao {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.25rem; 
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
@@ -162,7 +163,7 @@ button:hover {
     border: 0.125rem solid var(--cor-terciaria); 
     border-radius: 5px;
     padding: 10px;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 footer {
