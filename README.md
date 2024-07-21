@@ -12,5 +12,6 @@
 
 # Time
 
-| [<img loading="Edivone" src="img/logo_zoom-removebg-preview.png" width=115><br><sub>Edivone Araújo</sub>](https://github.com/edivonearaujo) | https://vercel.com/edivone-araujos-projects/decodificador-de-texto/4NmGuzExHZwp9obioFqzr7VZBDdi
+| [<img loading="Edivone" src="img/logo_zoom-removebg-preview.png" width=115><br><sub>Edivone Araújo</sub>](https://github.com/edivonearaujo) | 
+https://decodificador-de-texto-ten-psi.vercel.app/
 | :---: | :---: |
