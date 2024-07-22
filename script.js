@@ -1,6 +1,8 @@
-document.querySelctor('encrypt-btn').addEventListener('click', encryptText);
-document.querySelctor('decrypt-btn').addEventListener('click', decryptText);
-document.querySelctor('copy-btn').addEventListener('click', copyText);
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.encrypt-btn').addEventListener('click', encryptText);
+    document.querySelector('.decrypt-btn').addEventListener('click', decryptText);
+    document.querySelector('.copy-btn').addEventListener('click', copyText);
+});
 
 function encryptText() {
     let inputText = document.getElementById('input-text').value;
